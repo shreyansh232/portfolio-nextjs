@@ -9,6 +9,7 @@ import Github from '../public/assets/skills/github1.png';
 import Firebase from '../public/assets/skills/firebase.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import AWS from '../public/assets/skills/aws.png';
+import Chakra from '../public/assets/skills/chakra.png';
 
 const Skills = () => {
   return (
@@ -17,14 +18,14 @@ const Skills = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
         </p>
-        <h2 className='py-4'>What I Can Do</h2>
+        <h2 className='py-4 bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>What I Can Do</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
                 <h3>HTML</h3>
               </div>
             </div>
@@ -34,7 +35,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
                 <h3>CSS</h3>
               </div>
             </div>
@@ -44,7 +45,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
                 <h3>JavaScript</h3>
               </div>
             </div>
@@ -54,7 +55,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
                 <h3>React</h3>
               </div>
             </div>
@@ -64,7 +65,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
                 <h3>Tailwind</h3>
               </div>
             </div>
@@ -72,10 +73,10 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Firebase} width='64px' height='64px' alt='/' />
+                <Image src={Chakra} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Firebase</h3>
+              <div className='flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
+                <h3>Chakra UI</h3>
               </div>
             </div>
           </div>
@@ -84,7 +85,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
                 <h3>Github</h3>
               </div>
             </div>
@@ -94,7 +95,7 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
                 <h3>Next</h3>
               </div>
             </div>

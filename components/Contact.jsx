@@ -14,7 +14,7 @@ const Contact = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
         </p>
-        <h2 className='py-4'>Get In Touch</h2>
+        <h2 className='py-4 bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -27,41 +27,41 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
-                <p>Front-End Developer</p>
-                <p className='py-4'>
+                <h2 className='py-2 bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>Shreyansh Pandey</h2>
+                <p className='bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>Front-End Developer</p>
+                <p className='py-4 bg-gradient-to-tl from-cyan-600 to-rose-500 bg-clip-text text-transparent'>
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
+                <p className='uppercase pt-8 bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>Connect With Me</p>
+                <div className='flex items-center justify-between py-4 '>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/shreyansh-pandey-019706213/'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-black-100 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-teal-300 to-orange-300'>
                       <FaLinkedinIn />
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/shreyansh232'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-black-100 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-teal-300 to-orange-300'>
                       <FaGithub />
                     </div>
                   </a>
 
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-black-100 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-teal-300 to-orange-300'>
                     <AiOutlineMail />
                   </div>
                   <Link href='/resume'>
                     <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <div className='rounded-full shadow-lg shadow-black-100 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gradient-to-b from-teal-300 to-orange-300'>
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
@@ -123,7 +123,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
+                <button className='w-full p-4 bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent mt-4'>
                   Send Message
                 </button>
               </form>

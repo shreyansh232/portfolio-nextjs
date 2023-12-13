@@ -5,13 +5,13 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/navbar2.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState('bg-gradient-to-r from-slate-900 to-indigo-900');
+  const [linkColor, setLinkColor] = useState('bg-gradient-to-r from-slate-900 to-indigo-900');
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
 
@@ -60,30 +60,30 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='125'
-              height='50'
+              width='70'
+              height='70'
               className='cursor-pointer'
             />
           </a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            {/* <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            </li> */}
+            <li className='ml-10 text-sm uppercase hover:border-b bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b bg-gradient-to-b from-teal-300 to-orange-300 bg-clip-text text-transparent'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -177,7 +177,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/shreyansh-pandey-019706213/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/shreyansh232'
                   target='_blank'
                   rel='noreferrer'
                 >
